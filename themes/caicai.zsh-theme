@@ -9,7 +9,7 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}%{$GIT_PROMPT_INFO%})"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$GIT_DIRTY_COLOR%}✘%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$GIT_CLEAN_COLOR%}✔%{$reset_color%}"
 
-local ret_status="%(?:%{$fg_bold[green]%}%S(^_^):%{$fg_bold[red]%}%s%?%S(←_←%))"
+local ret_status="%(?:%{$fg_bold[green]%}%s %S(^_^)%s:%{$fg_bold[red]%}%s%?%S(←_←%)%s)"
 
 PROMPT='%{$fg[magenta]%}%n%{$reset_color%}%{$fg[cyan]%}@%{$reset_color%}%{$fg[yellow]%}%m%{$reset_color%}%{$fg[red]%}:%{$reset_color%}%{$fg[cyan]%}%0~%{$reset_color%}%{$fg[red]%}|%{$reset_color%}$(git_prompt_info)%{$fg[cyan]%}⇒%{$reset_color%} '
 
